@@ -51,3 +51,13 @@ a, a:hover {
     text-decoration: none;
     color: unset;
 }
+
+.dsmovie-contact-conteiner {
+    display: flex;
+    align-items: center;  
+}
+
+.dsmovie-contact-conteiner img {
+    margin-right: 10px;
+}     
+
