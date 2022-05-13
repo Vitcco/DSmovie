@@ -73,7 +73,7 @@ a, a:hover {
 
 
 .dsmovie-card{
-    width: 360px;
+    width: 100%;
     
 }
 
@@ -100,6 +100,7 @@ a, a:hover {
 
 .dsmovie-btm, .dsmovie-btm:hover {
     width: 180px;
+    max-width: 100%;
     height: 40px;
     background-color: var(--color-primary);
     color: var(--white);
