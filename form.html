@@ -19,7 +19,7 @@
     <header>
       <nav class="container">
         <h1>DSmovie</h1>
-        <div class="dsmovie-contact-conteiner">
+        <div class="dsmovie-contact-container">
           <img src="img/Vector.svg" alt="Github" />
           <a href="https://github.com/Vitcco">/Vitcco</a>
         </div>
@@ -28,16 +28,35 @@
 
     <main>
       <section id="dsmovie-form-section">
-        <div class="container dsmovie-form-conteiner">
+        <div class="container dsmovie-form-container">
           <div>
             <div class="dsmovie-card">
               <img
                 src="https://www.themoviedb.org/t/p/w500_and_h282_face/wXSnajAZ5ppTKa8Z5zzWGOK85YH.jpg"
                 alt="Game of Thrones"
               />
-              <div class="dsmovie-card-description">
+              <div class="dsmovie-form-description">
                 <h3>Game of Thrones</h3>
-                <a class="dsmovie-btm" href="index.html">Cancelar</a>
+                <form class="dsmovie-form">
+                  <div class="form-group dsmovie-form-group">
+                    <label for="email">Informe seu E-mail</label>
+                    <input class="form-control" type="email" id="email" />
+                  </div>
+                  <div class="form-group dsmovie-form-group">
+                    <label for="score">Informe sua avaliação</label>
+                    <select class="form-control" name="score" id="score">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </div>
+                  <div class="dsmovie-form-btm-container">
+                    <button class="dsmovie-btm" type="submit">Salvar</button>
+                    <a class="dsmovie-btm" href="index.html">Cancelar</a>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
