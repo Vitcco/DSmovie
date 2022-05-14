@@ -68,7 +68,7 @@ a, a:hover {
 
 
 #dsmovie-card-list{
-    padding: 40px 10px;
+    padding: 0 10px;
 
 }
 
@@ -190,4 +190,53 @@ a, a:hover {
     font-weight: 400;
     color: var(--text-light-gray);
     margin-bottom: 10px;
+}
+
+.dsmovie-pag-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dsmovie-pag-box {
+    display: flex;
+    width: 180px;
+    justify-content: space-between ;
+    align-items: center;
+}
+    
+
+.dsmovie-pag-box p {
+    margin: 0;
+    color: #4D41C0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dsmovie-pag-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsmovie-pag-box button img {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(99%) saturate(2284%) hue-rotate(241deg) brightness(90%) contrast(84%);
+   }
+
+.dsmovie-pag-box button:disabled img {
+    filter: unset;
+}
+
+.dsmovie-pag-box button:disabled{
+    border: 1px solid var(--text-light-gray);
+}
+
+.dsmovie-flip-hori{
+    transform: rotate(180deg);
 }
